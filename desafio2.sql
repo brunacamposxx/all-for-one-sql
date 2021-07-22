@@ -1,0 +1,5 @@
+SELECT
+  *
+from
+  northwind.products
+	
