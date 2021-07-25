@@ -1,5 +1,5 @@
 select
-  count(*) as order_count
+  count(*) as orders_count
 from
   northwind.orders
 where
