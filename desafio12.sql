@@ -3,4 +3,4 @@ select
 from
   northwind.purchase_orders
 WHERE
-  2006/04/26
+  submitted_date like '2006-04-26%'

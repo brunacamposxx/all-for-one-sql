@@ -3,4 +3,5 @@ select
 from
   northwind.purchase_orders
 WHERE
-  notes is not null
+  notes between "Purchase generated based on Order #30"
+  and "Purchase generated based on Order #39"
