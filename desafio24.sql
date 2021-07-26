@@ -3,6 +3,6 @@ update
 set
   discount = 45
 where
-  unit_price < 10
+  unit_price > 10
   and id between 30
   and 40;
